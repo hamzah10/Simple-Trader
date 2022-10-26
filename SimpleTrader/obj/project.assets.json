@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "SimpleTrader.Domain/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/SimpleTrader.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleTrader.Domain.dll": {}
+        }
+      },
+      "SimpleTrader.EntityFramework/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/SimpleTrader.EntityFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleTrader.EntityFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleTrader.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SimpleTrader.Domain/SimpleTrader.Domain.csproj",
+      "msbuildProject": "../SimpleTrader.Domain/SimpleTrader.Domain.csproj"
+    },
+    "SimpleTrader.EntityFramework/1.0.0": {
+      "type": "project",
+      "path": "../SimpleTrader.EntityFramework/SimpleTrader.EntityFramework.csproj",
+      "msbuildProject": "../SimpleTrader.EntityFramework/SimpleTrader.EntityFramework.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "SimpleTrader.Domain >= 1.0.0",
+      "SimpleTrader.EntityFramework >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MAISON\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader\\SimpleTrader.WPF.csproj",
+      "projectName": "SimpleTrader.WPF",
+      "projectPath": "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader\\SimpleTrader.WPF.csproj",
+      "packagesPath": "C:\\Users\\MAISON\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\MAISON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "projectReferences": {
+            "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj": {
+              "projectPath": "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj"
+            },
+            "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader.EntityFramework\\SimpleTrader.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader.EntityFramework\\SimpleTrader.EntityFramework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Le projet SimpleTrader.Domain n'est pas compatible avec netcoreapp3.0 (.NETCoreApp,Version=v3.0). Le projet SimpleTrader.Domain prend en charge : netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "SimpleTrader.Domain",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Le projet SimpleTrader.EntityFramework n'est pas compatible avec netcoreapp3.0 (.NETCoreApp,Version=v3.0). Le projet SimpleTrader.EntityFramework prend en charge : netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "SimpleTrader.EntityFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jhe0UWSeGw25ryGd5wd+/C8Mxe+fqOkrprpgrkeMczo8pM9xKV0XggQKvXoGhN9h3ANy4quEYQF7CJqLs6JtFQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\MAISON\\source\\repos\\SimpleTrader\\SimpleTrader\\SimpleTrader.WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MAISON\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\MAISON\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\MAISON\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\MAISON\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Le projet SimpleTrader.Domain n'est pas compatible avec netcoreapp3.0 (.NETCoreApp,Version=v3.0). Le projet SimpleTrader.Domain prend en charge : netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "SimpleTrader.Domain",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Le projet SimpleTrader.EntityFramework n'est pas compatible avec netcoreapp3.0 (.NETCoreApp,Version=v3.0). Le projet SimpleTrader.EntityFramework prend en charge : netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "SimpleTrader.EntityFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}
