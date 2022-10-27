@@ -7,4 +7,3 @@ C:\Users\MAISON\source\repos\SimpleTrader\SimpleTrader.Domain\obj\Debug\netcorea
 C:\Users\MAISON\source\repos\SimpleTrader\SimpleTrader.Domain\obj\Debug\netcoreapp3.1\SimpleTrader.Domain.csproj.CoreCompileInputs.cache
 C:\Users\MAISON\source\repos\SimpleTrader\SimpleTrader.Domain\obj\Debug\netcoreapp3.1\SimpleTrader.Domain.dll
 C:\Users\MAISON\source\repos\SimpleTrader\SimpleTrader.Domain\obj\Debug\netcoreapp3.1\SimpleTrader.Domain.pdb
-C:\Users\MAISON\source\repos\SimpleTrader\SimpleTrader.Domain\obj\Debug\netcoreapp3.1\SimpleTrader.Domain.csproj.AssemblyReference.cache

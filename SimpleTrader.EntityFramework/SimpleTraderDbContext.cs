@@ -16,10 +16,7 @@ namespace SimpleTrader.EntityFramework
         public DbSet<Account> Accounts { get; set; }
         public SimpleTraderDbContext(DbContextOptions options) : base(options) { }
 
-        public SimpleTraderDbContext()
-        {
-        }
-
+       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<AssetTransaction>().OwnsOne(a => a.Stock);
